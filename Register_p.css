@@ -89,13 +89,3 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
-
-
-/*Extra try just un comment this section 
-          .main 
-          {
-            margin: auto;
-            width: 80%;
-            border: 5px solid #f6f5f5;
-            padding: 10px;
-          } */
