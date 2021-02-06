@@ -67,6 +67,41 @@
             margin-left: auto;
             margin-right: auto;
         }
+        /*Button of Accept and Reject */
+        
+        .button {
+            color: white;
+            padding: 5px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin: 2px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        
+        .button1 {
+            background-color: white;
+            color: black;
+            border: 2px solid #4CAF50;
+        }
+        
+        .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        .button2 {
+            background-color: white;
+            color: black;
+            border: 2px solid #e21515;
+        }
+        
+        .button2:hover {
+            background-color: #e21515;
+            color: white;
+        }
     </style>
 </head>
 
@@ -76,45 +111,33 @@
     <img src="https://ieimjcet.files.wordpress.com/2013/10/mjcet.png" class="right" alt="MJCET Logo" height="150px" width="150px" />
     <h1 style="font-family:System-ui;">Leave Management System </h1>
     <hr />
-    <!DOCTYPE html>
-    <html>
-
-    <body>
-        <form>
-            <table id="t1" class="center">
-                <h2>Leave Permission</h2>
-                <tr>
-                    <th> Requested Date </th>
-                    <th> UserID </th>
-                    <th> Type of Leave </th>
-                    <th> Starting Date </th>
-                    <th> No. of Days </th>
-                    <th> Additional Comments </th>
-                    <th colspan="2"> Action </th>
-                </tr>
-                <tr>
-                    <td>06-02-2021</td>
-                    <td>Tauseef</td>
-                    <td>Medical</td>
-                    <td>11-02-2021 </td>
-                    <td>5</td>
-                    <td> Lame Reasons!!</td>
-                    <td> <input type="submit" value="Accept"> </td>
-                    <td> <input type="submit" value=" Reject"> </td>
+    <form>
+        <table id="t1" class="center">
+            <h2>Leave Permission</h2>
+            <tr>
+                <th> Requested Date </th>
+                <th> UserID </th>
+                <th> Type of Leave </th>
+                <th> Starting Date </th>
+                <th> No. of Days </th>
+                <th> Additional Comments </th>
+                <th colspan="2"> Action </th>
+            </tr>
+            <tr>
+                <td>06-02-2021</td>
+                <td>Tauseef -025</td>
+                <td>Medical</td>
+                <td>11-02-2021 </td>
+                <td>5</td>
+                <td> Lame Reasons!!</td>
+                <td> <button class="button button1" type="submit"> Accept </td>
+                    <td> <button class="button button2" type="submit"> Reject </td>
                 </tr>
 
             </table>
-            </table>
-        </form>
-        <br>
-
-    </body>
-
-    </html>
-
-
-
+           
+    </form>
+    <br>
 
 </body>
-
 </html>
